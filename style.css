@@ -1,0 +1,493 @@
+*, body
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    height: 70px;
+    width: 100%;
+    border-bottom: 8px solid #FFCAD4;
+}
+
+.sera
+{
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    align-items: center;
+}
+
+.list
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 70px;
+}
+
+.list > li
+{
+    margin-right: 29px;
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    margin-left: 58px;
+}
+
+.search
+{
+    width: 241px;
+    height: 41px;
+    border: 1px solid #F5F5F5;
+    padding-left: 40px;
+}
+
+.sv
+{
+    z-index: 1;
+    position: relative;
+    left: 30px;
+    
+}
+
+.tovar
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 52px;
+    margin-left: 58px;
+    
+}
+
+.content
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+
+}
+
+.content_text
+{
+    
+    margin-top: 50px;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+}
+
+.brand
+{
+    font-family: 'Pan Display';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+margin-bottom: 10px;
+text-align: center;
+letter-spacing: 0.125em;
+
+color: #71706C;
+}
+
+.sub_brand
+{
+    font-family: 'Pan Display';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 32px;
+
+text-align: center;
+width: 276px;
+height: 65px;
+color: #27251F;
+}
+
+.cena
+{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.cena > li
+{
+    margin-right: 15px;
+}
+
+.dark
+{
+    font-family: 'Pan Display';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+
+text-align: center;
+letter-spacing: 0.003em;
+text-decoration-line: line-through;
+
+color: #27251F;
+
+}
+
+.red
+{
+    font-family: 'Pan Display';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+
+text-align: center;
+letter-spacing: 0.003em;
+
+color: #D2255B;
+}
+
+.lorem
+{
+    width: 301px;
+height: 216px;
+margin-top: 21px;
+
+font-family: 'Pan Display';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+
+letter-spacing: 0.017em;
+
+color: #27251F;
+}
+
+.dres
+{
+    font-family: 'Pan Display';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 130%;
+width: 91px;
+height: 18px;
+position: relative;
+right: 100px;
+
+color: #27251F;
+}
+
+.dre
+{
+    display: flex;
+    align-items: flex-start;
+}
+
+.sub_lorem
+{
+    width: 330px;
+height: 18px;
+font-family: 'Pan Display';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+margin-left: 40px;
+border-bottom: 2px solid  #F5F5F5;
+padding-bottom: 10px;
+
+color: #27251F;
+
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buttons > li
+{
+    margin-bottom: 50px;
+    margin-right: 290px;
+}
+
+.btn 
+{
+    position: absolute;
+width: 330px;
+height: 45px;
+color: white;
+
+background: #27251F;
+border-radius: 3px;
+}
+
+.button_pink
+{
+    position: absolute;
+width: 330px;
+height: 45px;
+
+
+background: #FFCAD4;
+border-radius: 3px;
+
+
+}
+
+
+.feed
+{
+    position: fixed;
+    z-index: 999;
+    width: 37px;
+height: 127px;
+left: 100%;
+top: 280px;
+text-align:center;
+  transform: rotate(-90deg);
+background: #FFFFFF;
+border-radius: 3px 0px 0px 3px;
+
+
+}
+
+.menu
+{
+    display: none;
+}
+
+.bot:disabled
+{
+    color: black;
+}
+
+
+@media screen and (max-width: 630px)
+{
+    .content
+{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.two, .three, .four
+{
+    display: none;
+}
+.tovar
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 52px;
+    margin-left: 58px;
+    
+}
+
+.sv
+{
+    position: relative;
+    margin-right: 80%;
+}
+
+.search
+{
+    display: none;
+}
+.ino
+{
+    display: none;
+}
+.tino
+{
+  position: relative;
+
+  bottom: 70px;
+  left: 57px;
+}
+
+
+.dino
+{
+    display: flex;
+    position: relative;
+    bottom: 70px;
+    width: 100%;
+    left: 242%;
+
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.logo
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    right: 50px;
+}
+header
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 70px;
+    width: 100%;
+    border-bottom: 8px solid #FFCAD4;
+}
+
+.menu
+{
+    display: flex;
+    position: relative;
+    top: 20px;
+    width: 26px;
+    left: 14px;
+}
+.content_text
+{
+    
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    flex-direction: column;
+}
+
+.pos
+{
+    width: 100%;
+height: 330px;
+position: relative;
+right: 30px;
+}
+
+.dres
+{
+    font-family: 'Pan Display';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 130%;
+width: 91px;
+height: 18px;
+position: relative;
+right: 108px;
+
+color: #27251F;
+}
+.sub_lorem
+{
+    width: 330px;
+height: 18px;
+font-family: 'Pan Display';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+margin-left: 21px;
+border-bottom: 2px solid  #F5F5F5;
+padding-bottom: 10px;
+
+color: #27251F;
+
+}
+.brand
+{
+    font-family: 'Pan Display';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+margin-bottom: 10px;
+text-align: center;
+position: relative;
+
+letter-spacing: 0.125em;
+
+color: #71706C;
+}
+.cena
+{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    position: relative;
+   
+}
+.sub_brand
+{
+    font-family: 'Pan Display';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 32px;
+
+text-align: center;
+width: 276px;
+position: relative;
+left: 14px;
+height: 65px;
+color: #27251F;
+}
+.feed
+{
+    position: fixed;
+    z-index: 999;
+    width: 37px;
+height: 127px;
+left: 100%;
+top: 280px;
+text-align:center;
+  transform: rotate(-90deg);
+background: #FFFFFF;
+border-radius: 3px 0px 0px 3px;
+
+
+}
+}
+
+
+@media screen and (max-width: 425px)
+{
+    .sv
+{
+    position: relative;
+    margin-right: 80%;
+}
+.dino
+{
+    display: flex;
+    position: relative;
+    bottom: 70px;
+    width: 100%;
+    left: 282%;
+
+}
+}
